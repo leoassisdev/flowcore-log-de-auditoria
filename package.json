@@ -1,0 +1,15 @@
+{
+  "name": "flowcore-log-de-auditoria",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Trilha de auditoria append-only com cadeia de hashes SHA-256 (ou HMAC): qualquer edição ou remoção é detectada. Prova técnica pra LGPD, compliance e disputa com cliente.",
+  "author": "FlowCore Soluções LTDA",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
